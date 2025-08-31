@@ -14,7 +14,7 @@ public class DrawPiece : MonoBehaviour
     public int column = 0;
 
     [HideInInspector] public float size = 1;
-    [HideInInspector] public Vector3 lastPos { get; set; } = new Vector3(1, 0, 0);
+    [HideInInspector] public Vector3 lastPos { get; set; } = new Vector3(0, 1, 0);
     Vector3 location = Vector3.zero;
     //private Sprite[] sprites;
     
